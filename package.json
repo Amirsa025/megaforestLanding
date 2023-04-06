@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.0",
+    "@tailwindcss/line-clamp": "^0.3.1",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.3.0"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/minout.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/minout.css --minify",
+    "live": "live-server"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}

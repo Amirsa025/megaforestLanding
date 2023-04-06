@@ -1,0 +1,20 @@
+<svg width="24" height="112" viewBox="0 0 24 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="scroll-down">
+<g id="scroll/default-01">
+<g id="Group 362">
+<g id="bx:bx-mouse">
+<path id="Vector" d="M11.975 110H12C15.859 110 19 106.86 19 103V97C19 93.159 15.873 90.026 12.019 90H11.959C8.119 90.022 5 93.157 5 97V103C5 106.86 8.129 110 11.975 110ZM7 97C7.00184 95.6771 7.52715 94.4086 8.4612 93.4718C9.39524 92.5349 10.6621 92.0058 11.985 92C14.75 92.006 17 94.249 17 97V103C17 105.757 14.757 108 12 108H11.975C9.186 108 7 105.804 7 103V97Z" fill="#2AB673"/>
+<path id="Vector_2" d="M11 95C11 94.4477 11.4477 94 12 94V94C12.5523 94 13 94.4477 13 95V99C13 99.5523 12.5523 100 12 100V100C11.4477 100 11 99.5523 11 99V95Z" fill="#2AB673"/>
+</g>
+</g>
+<rect id="Rectangle 94" width="2" height="80" rx="1" transform="matrix(-1 0 0 1 13 0)" fill="url(#paint0_linear_16336_22935)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_16336_22935" x1="1" y1="0" x2="1" y2="80" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2AB673" stop-opacity="0"/>
+<stop offset="0.463542" stop-color="#2AB673" stop-opacity="0.18"/>
+<stop offset="1" stop-color="#2AB673"/>
+</linearGradient>
+</defs>
+</svg>
