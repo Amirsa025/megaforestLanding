@@ -3463,6 +3463,16 @@ video {
     gap: 1rem;
   }
 
+  .sm\:px-9 {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+
+  .sm\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .sm\:pt-36 {
     padding-top: 9rem;
   }
@@ -3574,6 +3584,11 @@ video {
   .md\:px-\[53px\] {
     padding-left: 53px;
     padding-right: 53px;
+  }
+
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .md\:pl-7 {
