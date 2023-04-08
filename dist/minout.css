@@ -799,10 +799,6 @@ video {
   margin-left: auto;
 }
 
-.mr-4 {
-  margin-right: 1rem;
-}
-
 .mr-5 {
   margin-right: 1.25rem;
 }
@@ -946,6 +942,10 @@ video {
   height: 6rem;
 }
 
+.h-52 {
+  height: 13rem;
+}
+
 .h-6 {
   height: 1.5rem;
 }
@@ -956,22 +956,6 @@ video {
 
 .h-\[25\.625rem\] {
   height: 25.625rem;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-44 {
-  height: 11rem;
-}
-
-.h-40 {
-  height: 10rem;
-}
-
-.h-52 {
-  height: 13rem;
 }
 
 .h-\[8rem\] {
@@ -994,8 +978,8 @@ video {
   width: 33.333333%;
 }
 
-.w-32 {
-  width: 8rem;
+.w-28 {
+  width: 7rem;
 }
 
 .w-36 {
@@ -1016,14 +1000,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-24 {
-  width: 6rem;
-}
-
-.w-28 {
-  width: 7rem;
 }
 
 .max-w-4xl {
@@ -2372,6 +2348,10 @@ video {
   padding-bottom: 20px;
 }
 
+.\!pt-\[10rem\] {
+  padding-top: 10rem !important;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -2380,16 +2360,8 @@ video {
   padding-top: 3rem;
 }
 
-.pt-36 {
-  padding-top: 9rem;
-}
-
 .pt-\[19rem\] {
   padding-top: 19rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
 }
 
 .text-left {
@@ -3423,20 +3395,16 @@ video {
     height: 14.625rem;
   }
 
-  .sm\:h-0 {
-    height: 0px;
-  }
-
   .sm\:h-full {
     height: 100%;
   }
 
-  .sm\:h-52 {
-    height: 13rem;
-  }
-
   .sm\:min-h-\[15\.5rem\] {
     min-height: 15.5rem;
+  }
+
+  .sm\:w-32 {
+    width: 8rem;
   }
 
   .sm\:w-\[37rem\] {
@@ -3449,10 +3417,6 @@ video {
 
   .sm\:w-auto {
     width: auto;
-  }
-
-  .sm\:w-32 {
-    width: 8rem;
   }
 
   .sm\:grid-cols-4 {
@@ -3472,13 +3436,8 @@ video {
     padding-right: 2.25rem;
   }
 
-  .sm\:px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
-  .sm\:pt-36 {
-    padding-top: 9rem;
+  .sm\:pt-0 {
+    padding-top: 0px;
   }
 
   .sm\:text-5xl {
@@ -3500,10 +3459,6 @@ video {
     top: 0px;
   }
 
-  .md\:top-\[1rem\] {
-    top: 1rem;
-  }
-
   .md\:top-\[2rem\] {
     top: 2rem;
   }
@@ -3522,10 +3477,6 @@ video {
 
   .md\:h-\[14rem\] {
     height: 14rem;
-  }
-
-  .md\:h-\[15rem\] {
-    height: 15rem;
   }
 
   .md\:w-1\/2 {
@@ -3580,6 +3531,11 @@ video {
     padding-right: 0px;
   }
 
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .md\:px-2 {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -3588,11 +3544,6 @@ video {
   .md\:px-\[53px\] {
     padding-left: 53px;
     padding-right: 53px;
-  }
-
-  .md\:px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem;
   }
 
   .md\:pl-7 {
