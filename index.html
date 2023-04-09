@@ -33,7 +33,44 @@
     <img class=" absolute transition md:w-auto rotate-180 w-1/3  top-12 left-0 -z-10"
          src="/src/images/topo-testimonials.svg" alt="">
     <!--Start Page Navbar-->
-    <div include-html="src/component/header.html"></div>
+    <nav class="px-6 navbar fixed w-full top-0 left-0 py-5 z-50 transition-all duration-300">
+        <div class=" container mx-auto w-full flex justify-between items-center">
+            <a href="/">
+                <img src="../src/images/H-logo.png" class="w-32" alt="">
+            </a>
+            <a href="javascript:void(0)" class="md:hidden px-5 py-3 flex justify-center items-center hover:bg-gray-400 hover:text-white" data-mobile="menu-icon">
+                <i class="fa fa-bars text-2xl"></i>
+            </a>
+            <ul class=" md:relative md:justify-between md:items-center md:!flex md:w-auto md:bg-transparent md:!h-full hidden absolute top-full left-0 bg-white max-h-max overflow-hidden w-full h-screen text-center" data-mobile="menu">
+                <li>
+                    <a href="/" class="md:px-6 md:py-4 md:w-auto w-full py-5 block text-zinc-900 relative after:content-[''] hover:after:block after:absolute after:-bottom-0 after:left-1/2 after:-translate-x-1/2 after:bg-center after:bg-no-repeat after:w-5 after:h-5 after:bg-[url('https://uploads-ssl.webflow.com/627e16866a9bde35fe9bcc42/62b964e5cb92c4216da32079_ellipse.svg')]">home</a>
+                </li>
+                <li>
+                    <a href="/how-we-work/" class="md:px-6 md:py-4 md:w-auto w-full py-5 block text-zinc-900 relative after:content-[''] after:hidden hover:after:block after:absolute after:-bottom-0 after:left-1/2 after:-translate-x-1/2 after:bg-center after:bg-no-repeat after:w-5 after:h-5 after:bg-[url('https://uploads-ssl.webflow.com/627e16866a9bde35fe9bcc42/62b964e5cb92c4216da32079_ellipse.svg')]">how we work</a>
+                </li>
+                <li>
+                    <a href="/approach/" class="md:px-6 md:py-4 md:w-auto w-full py-5 block text-zinc-900 relative after:content-[''] after:hidden hover:after:block after:absolute after:-bottom-0 after:left-1/2 after:-translate-x-1/2 after:bg-center after:bg-no-repeat after:w-5 after:h-5 after:bg-[url('https://uploads-ssl.webflow.com/627e16866a9bde35fe9bcc42/62b964e5cb92c4216da32079_ellipse.svg')]">approach</a>
+                </li>
+                <li>
+                    <a href="/technology-stack/" class="md:px-6 md:py-4 md:w-auto w-full py-5 block text-zinc-900 relative after:content-[''] after:hidden hover:after:block after:absolute after:-bottom-0 after:left-1/2 after:-translate-x-1/2 after:bg-center after:bg-no-repeat after:w-5 after:h-5 after:bg-[url('https://uploads-ssl.webflow.com/627e16866a9bde35fe9bcc42/62b964e5cb92c4216da32079_ellipse.svg')]">technology stack</a>
+                </li>
+                <li>
+                    <a href="/projects/" class="md:px-6 md:py-4 md:w-auto w-full py-5 block text-zinc-900 relative after:content-[''] after:hidden hover:after:block after:absolute after:-bottom-0 after:left-1/2 after:-translate-x-1/2 after:bg-center after:bg-no-repeat after:w-5 after:h-5 after:bg-[url('https://uploads-ssl.webflow.com/627e16866a9bde35fe9bcc42/62b964e5cb92c4216da32079_ellipse.svg')]">projects</a>
+                </li>
+                <li>
+                    <a href="/contact/" class="md:px-6 md:py-4 md:w-auto w-full py-5 block text-zinc-900 relative after:content-[''] after:hidden hover:after:block after:absolute after:-bottom-0 after:left-1/2 after:-translate-x-1/2 after:bg-center after:bg-no-repeat after:w-5 after:h-5 after:bg-[url('https://uploads-ssl.webflow.com/627e16866a9bde35fe9bcc42/62b964e5cb92c4216da32079_ellipse.svg')]">contact us</a>
+                </li>
+                <li>
+                    <a href="/contact/" class="md:hidden bg-[#03283d] hover:bg-[#053a4f] rounded-3xl text-white px-9 py-3 mt-20 mb-2 ">
+                        We are here!
+                    </a>
+                </li>
+            </ul>
+            <a href="#contact" class="  bg-[#03283d] hover:bg-[#053a4f] rounded-xl text-white md:px-9 py-3 md:inline-block hidden" onclick="$('#contact-section').animatescroll();">
+                We are here!
+            </a>
+        </div>
+    </nav>
     <!--End Page Navbar-->
     <!--service Item start-->
     <div include-html="src/component/services.html"></div>
